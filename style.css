@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+/*moves section*/
+
+.moves{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 200px;
+}
+.sign{
+    background-color: rgb(244, 76, 194);
+    color: aliceblue;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.sign:hover{
+    opacity: 0.5;
+    height: 110px;
+    width: 110px;
+    transition: .5s;
+    border: 2px solid rgb(255, 1, 52);
+    cursor: pointer;
+    box-shadow: 0px 0px 15px black;
+}
+/*score card section*/
+.scorecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    height: 150px;
+}
+#usersection, #compsection{
+    height: 70px;
+    width: 90px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#userscore, #compscore{
+    font-size: 2.5rem;
+}
+/*message container section*/
+.msg-container{
+    
+    margin-top: 50px;
+    text-align: center;
+}
+#outputBox{
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+}
+#outputBox:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 6px rgb(138, 129, 129);
+}
